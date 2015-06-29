@@ -3,7 +3,7 @@ var router = express.Router();
 var conekta = require('conekta');
 
 
-conekta.api_key = 'key_YsnWN57yF1Tq82N9EGEyHA';
+
 conekta.api_version = '1.0.0';
 /* GET home page. */
 router.get('/', function(req, res, next) {
